@@ -1,0 +1,28 @@
+# Export all names
+export("fit.copula")
+export("clayton.copula", "normal.copula", "plackett.copula")
+export("dllogis", "pllogis", "qllogis", "rllogis")
+export("icbiplot")
+export("icsurv2cdf")
+export("NPbayesSurv")
+export("NPICbayesSurv")
+export("kSampleIcens")
+export("contourProb")
+export("survfitS.smoothSurvReg")
+
+
+# Selective import from other packages
+importFrom(TeachingDemos,  "squishplot")                                ## In: icbiplot
+importFrom(mvtnorm, "pmvnorm")                                          ## In: normal.copula
+importFrom(smoothSurv, "smoothSurvReg.control", "smoothSurvReg")        ## In: fit.copula
+importFrom(gtools, "rdirichlet")                                        ## In: NPICbayesSurv
+
+importFrom(graphics, "par", "plot", "points", "lines", "text")
+importFrom(stats, "cor.test", "formula", "model.matrix", "optim", "coef", "pexp", "qexp", "pbeta", "pchisq", "pnorm", "qnorm", "runif", "pweibull", "qweibull", "plnorm", "qlnorm", "rmultinom", "sd", "quantile", "terms", "uniroot", "var")
+
+# Import packages listed in Depends
+import(
+  survival,
+  MASS,
+  Icens
+)
