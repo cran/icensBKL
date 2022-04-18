@@ -43,9 +43,9 @@ kSampleIcens(A, group, icsurv, rho=0, gamma=0)
 %  \item{Sfun}{name of the function from \code{Icens} package that will be used to calculate
 %       NPMLE of the survival functions (Turnbull estimates).}
   \item{rho}{parameter of the weighted log-rank (denoted as
-    \eqn{\varrho}{rho} in Komárek, Bogaerts and Lesaffre (20XX)).}
+    \eqn{\varrho}{rho} in Bogaerts, Komárek and Lesaffre (2017)).}
   \item{gamma}{parameter of the weighted log-rank
-    (denoted as \eqn{\gamma}{gamma} in Komárek, Bogaerts and Lesaffre (20XX))}  
+    (denoted as \eqn{\gamma}{gamma} in Bogaerts, Komárek and Lesaffre (2017))}  
 }
 \value{
   An object of class \code{htest}.
@@ -58,14 +58,14 @@ kSampleIcens(A, group, icsurv, rho=0, gamma=0)
   Gómez, G. and Oller Pique, R. (2008).
   \emph{A new class of rank tests for interval-censored data.}
   Harvard University Biostatistics Working Paper Series, Working Paper 93.
-  \url{http://www.bepress.com/harvardbiostat/paper93}
+  \url{https://biostats.bepress.com/harvardbiostat/paper93/}
 
   Gómez, G., Calle, M. L., Oller, R., Langohr, K. (2009).
   Tutorial on methods for interval-censored data and their
   implementation in R.
   \emph{Statistical Modelling}, \bold{9}, 259-297.
 
-  Bogaerts, K., Komárek, A. and Lesaffre, E. (20XX).
+  Bogaerts, K., Komárek, A. and Lesaffre, E. (2017).
   \emph{Survival Analysis with Interval-Censored Data: A Practical
     Approach}.
   Boca Raton: Chapman and Hall/CRC.
@@ -75,7 +75,7 @@ kSampleIcens(A, group, icsurv, rho=0, gamma=0)
   \code{\link[Icens]{PGM}}, \code{\link[interval]{ictest}}.
 }  
 \author{
-  Arnošt Komárek \email{komarek[AT]karlin.mff.cuni.cz}
+  Arnošt Komárek \email{arnost.komarek@mff.cuni.cz}
 }  
 \examples{
 ### Comparison of emergence distributions

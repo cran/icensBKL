@@ -21,7 +21,7 @@ normal.copula(u, v, beta, cov)
 Nelsen, R. B. (1998). \emph{An Introduction to Copulas}. Lecture Notes in Statistics 139. Springer-Verlag, New-York.
 }
 \author{
-  Kris Bogaerts \email{kris.bogaerts[AT]kuleuven.be}
+  Kris Bogaerts \email{kris.bogaerts@kuleuven.be}
 }
 \note{This is not to be called by the user.}
 

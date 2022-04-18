@@ -53,7 +53,7 @@ icbiplot(L, R, p = 2, MaxIter = 10000, tol = 1e-06, plotit = TRUE, seed = NULL, 
   \bold{22}(1), 123-134.
 }
 \author{
-  Silvia Cecere, port into icensBKL by Arnošt Komárek \email{arnost.komarek[AT]mff.cuni.cz}
+  Silvia Cecere, port into icensBKL by Arnošt Komárek \email{arnost.komarek@mff.cuni.cz}
 }
 \examples{
 data("tandmob", package = "icensBKL")

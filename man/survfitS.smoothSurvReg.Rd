@@ -34,7 +34,7 @@ survfitS.smoothSurvReg(formula, cov, logscale.cov)
    A \code{data.frame} with columns named \code{S1} and \code{S2} containing the value of survivor function at the left and right endpoints, respectively.
 }
 \author{
-  Kris Bogaerts \email{kris.bogaerts[AT]kuleuven.be}
+  Kris Bogaerts \email{kris.bogaerts@kuleuven.be}
 }
 \note{This is not to be called by the user.}
 

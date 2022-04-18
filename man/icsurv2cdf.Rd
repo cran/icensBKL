@@ -35,7 +35,7 @@ icsurv2cdf(fit)
   \code{\link[Icens]{EMICM}}.
 }  
 \author{
-  Arnošt Komárek \email{komarek[AT]karlin.mff.cuni.cz}
+  Arnošt Komárek \email{arnost.komarek@mff.cuni.cz}
 }  
 \examples{
 ### Distribution function of the emergence of tooth 44 on boys

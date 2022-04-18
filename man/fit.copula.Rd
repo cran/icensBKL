@@ -69,7 +69,7 @@ fit.copula(data, copula = "normal", init.param = NULL, cov = ~1,
 A list with elements \code{fit}, \code{variance}, \code{BScoefficients}, \code{BSresults}.
 }
 \author{
-  Kris Bogaerts \email{kris.bogaerts[AT]kuleuven.be}
+  Kris Bogaerts \email{kris.bogaerts@kuleuven.be}
 }
 \examples{
 \donttest{

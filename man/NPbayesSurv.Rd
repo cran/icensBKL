@@ -55,8 +55,8 @@ NPbayesSurv(time, censor,
   \emph{The Annals of Statistics}, \bold{6}(4), 755-768.
 }
 \author{
-  Emmanuel Lesaffre \email{emmanuel.lesaffre[AT]kuleuven.be},
-  Arnošt Komárek \email{komarek[AT]karlin.mff.cuni.cz}
+  Emmanuel Lesaffre \email{emmanuel.lesaffre@kuleuven.be},
+  Arnošt Komárek \email{arnost.komarek@mff.cuni.cz}
 }
 \examples{
 ## Nonparametric Bayesian estimation of a survival curve

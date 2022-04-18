@@ -23,7 +23,7 @@ clayton.copula(u, v, beta, cov)
   \emph{Biometrika}, 65, 141-151.
 }
 \author{
-  Kris Bogaerts \email{kris.bogaerts[AT]kuleuven.be}
+  Kris Bogaerts \email{kris.bogaerts@kuleuven.be}
 }
 \note{This is not to be called by the user.}
 

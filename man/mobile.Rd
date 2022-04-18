@@ -62,7 +62,7 @@ The dataset shown here includes 478 respondents who correctly reported to have h
   }  
 }
 \source{
-\url{https://dvn.jyu.fi/dvn/dv/mobilephone}
+\url{https://jyx.jyu.fi/handle/123456789/77334/}
 }
 \references{
 Karvanen, J., Rantanen, A., and Luoma, L. (2014). Survey data and Bayesian

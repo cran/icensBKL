@@ -22,7 +22,7 @@ plackett.copula(u, v, beta, cov)
 R.L. Plackett (1965) A Class of Bivariate Distributions. emph{Journal of the American Statistical Association}, 60:516--522.
 }
 \author{
-  Kris Bogaerts \email{kris.bogaerts[AT]kuleuven.be}
+  Kris Bogaerts \email{kris.bogaerts@kuleuven.be}
 }
 \note{This is not to be called by the user.}
 

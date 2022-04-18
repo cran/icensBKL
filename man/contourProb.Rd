@@ -37,7 +37,7 @@ contourProb(sample, theta0 = 0)
   \code{\link[Icens]{PGM}}, \code{\link[interval]{ictest}}.
 }  
 \author{
-  Arnošt Komárek \email{komarek[AT]karlin.mff.cuni.cz}
+  Arnošt Komárek \email{arnost.komarek@mff.cuni.cz}
 }  
 \examples{
 set.seed(20170127)

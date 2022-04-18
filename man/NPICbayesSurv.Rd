@@ -62,8 +62,8 @@ NPICbayesSurv(low, upp,
   \emph{Journal of Statistical Planning and Inference}, \bold{98}(1-2), 73-87.
 }
 \author{
-  Emmanuel Lesaffre \email{emmanuel.lesaffre[AT]kuleuven.be},
-  Arnošt Komárek \email{komarek[AT]karlin.mff.cuni.cz}
+  Emmanuel Lesaffre \email{emmanuel.lesaffre@kuleuven.be},
+  Arnošt Komárek \email{arnost.komarek@mff.cuni.cz}
 }  
 \examples{
 ## Breast Cancer study (radiotherapy only group)
