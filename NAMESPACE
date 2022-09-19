@@ -19,6 +19,7 @@ importFrom(gtools, "rdirichlet")                                        ## In: N
 
 importFrom(graphics, "par", "plot", "points", "lines", "text")
 importFrom(stats, "cor.test", "formula", "model.matrix", "optim", "coef", "pexp", "qexp", "pbeta", "pchisq", "pnorm", "qnorm", "runif", "pweibull", "qweibull", "plnorm", "qlnorm", "rmultinom", "sd", "quantile", "terms", "uniroot", "var")
+importFrom(methods, "is")
 
 # Import packages listed in Depends
 import(

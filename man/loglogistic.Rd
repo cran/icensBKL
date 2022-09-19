@@ -29,9 +29,9 @@
   \eqn{\gamma}{gamma} is the \code{shape} parameter).
   The mean and the variance are given by
   \deqn{
-  \begin{array}{r@{\;=\;}ll}
-  \mbox{E}X   & \displaystyle \frac{1}{\alpha}\,\frac{\pi}{\gamma\sin\bigl(\frac{\pi}{\gamma}\bigr)}, &\quad \gamma > 1, \\[4ex]
-  \mbox{var}X & \displaystyle \frac{1}{\alpha^2}\,
+  \begin{array}{rcll}
+  \mbox{E}X   & \;=\; & \displaystyle \frac{1}{\alpha}\,\frac{\pi}{\gamma\sin\bigl(\frac{\pi}{\gamma}\bigr)}, &\quad \gamma > 1, \\[4ex]
+  \mbox{var}X & \;=\; & \displaystyle \frac{1}{\alpha^2}\,
                          \biggl\{\frac{2\pi}{\gamma\sin\bigl(\frac{2\pi}{\gamma}\bigr)}\,-\,
                                  \frac{\pi^2}{\gamma^2\sin^2\bigl(\frac{\pi}{\gamma}\bigr)}\biggr\},
          &\quad \gamma > 2, \\[4ex]

@@ -1,5 +1,5 @@
-01df8502f8646a0d0791de3b58014666 *DESCRIPTION
-cc0cc43cb6a10dd7bd3d6954a4189d31 *NAMESPACE
+9ddabb0ec878907b258f7a31ff9eeda8 *DESCRIPTION
+c6fd701fe3b3c3d5b164621b459aef33 *NAMESPACE
 a8e2eefcf16810c81a5a6258bf1782c5 *R/NPICbayesSurv.R
 d1d68367108ab261e06f3d923e41e4c8 *R/NPbayesSurv.R
 ea78110fee2ebedb09a66968385024a6 *R/clayton.copula.R
@@ -8,7 +8,7 @@ f4d2897cbf6ddfeee66fffa1e4fa046a *R/contourProb.R
 bb95e211ae135ff624d5414ad1b79df2 *R/fit.copula.R
 f667c3400055a2c33a6ad181313ab361 *R/icbiplot.R
 b710194064e3e19669f6c00930008104 *R/icsurv2cdf.R
-e0f652900251cc77a18b6cfa1971c9bb *R/kSampleIcens.R
+2b5a97584f9b1cff746a5fcf7bcff028 *R/kSampleIcens.R
 be1b6e8c892bd72a97e801b21396012c *R/normal.copula.R
 6fa18664c62c49fe677a6966f19c7268 *R/plackett.copula.R
 eab70216540c6463f7055bb2c82c0caa *R/pllogis.R
@@ -39,7 +39,7 @@ b0d4513cf9e4ab166c2d304e751f5609 *man/graft.Rd
 3cc151d9bb70de605a484ea192d73d43 *man/icbiplot.Rd
 ed76f49029f37c6fe19dbbaef3e1d323 *man/icsurv2cdf.Rd
 e0f9f6cc44761a5b5f09d95d7063b154 *man/kSampleIcens.Rd
-80ae1c5562a1af271637fe62b1225ca1 *man/loglogistic.Rd
+82ade51ad45f966c359537fbee0c2e92 *man/loglogistic.Rd
 a8d9e78dc22e7da0ffda86c1d75f04a0 *man/mastitis.Rd
 e6dce543fdc63b1105cc58b5e7eced2c *man/mobile.Rd
 a58be6c3c2cbd57f1efbafe35185de36 *man/normal.copula.Rd

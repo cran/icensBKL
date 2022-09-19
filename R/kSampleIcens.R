@@ -25,7 +25,7 @@ kSampleIcens <- function(A, group, icsurv, rho=0, gamma=0){
     svf <- try(eval(call(Sfun, A=A)), silent=TRUE)      ### pooled CDF
     if (class(svf)[1] == "character") stop("Could not calculate a pooled cdf.")
   }else{
-    if (class(icsurv) != "icsurv") stop("icsurv must be of class icsurv")
+    if (!is(icsurv, "icsurv")) stop("icsurv must be of class icsurv")
     if (icsurv$method != "MPGM") stop("icsurv must be obtained by running PGM function")
     svf <- icsurv
     if(nsubj != ncol(svf$clmat)) stop("number of subjects indicated by A matric is different from that indicated by icsurv object")
