@@ -197,7 +197,7 @@ for (i in 1:M){
 set.seed(seed+i)
 newdata<-data[sample(N, replace = TRUE),]
 
-cat(c("Boostrap sample ",i, "\n"))
+message(paste("Boostrap sample ", i, "\n", sep = ""))
 
 # Fit marginal functions       
 fit1 <-try( smoothSurvReg(marginal1, logscale = logscale1, lambda = exp(chosenLambda1),data=newdata,  control=control1),TRUE)

@@ -19,7 +19,8 @@ plackett.copula(u, v, beta, cov)
 \value{Cumulative density function of the Plackett copula evaluated at
   points (u,v) with given parameter exp(beta \%*\%cov)}
 \references{
-R.L. Plackett (1965) A Class of Bivariate Distributions. emph{Journal of the American Statistical Association}, 60:516--522.
+  R. L. Plackett (1965).
+  A class of bivariate distributions. \emph{Journal of the American Statistical Association}, \bold{60}, 516-522.
 }
 \author{
   Kris Bogaerts \email{kris.bogaerts@kuleuven.be}

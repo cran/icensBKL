@@ -1,20 +1,11 @@
-citHeader("To cite package icensBKL in publications use:")
-     
-year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date)
-vers <- paste("R package version", meta$Version)
-
-citEntry(entry   = "Book",
+bibentry(bibtype = "Book",
          title   = "Survival Analysis with Interval-Censored Data: A Practical Approach",
-         author  = personList(as.person("Kris Bogaerts"),
-                              as.person("Arno\\v{s}t Kom\\'arek"),
-                              as.person("Emmanuel Lesaffre")),
+         author  = c(as.person("Kris Bogaerts"),
+                     as.person("Arnošt Komárek"),
+                     as.person("Emmanuel Lesaffre")),
          publisher = "Chapman and Hall/CRC",
          address = "Boca Raton",
          year    = "2017",
-         url     = "https://www.routledge.com/Survival-Analysis-with-Interval-Censored-Data-A-Practical-Approach-with/Bogaerts-Komarek-Lesaffre/p/book/9781420077476/",         
-         textVersion = paste(
-             "Kris Bogaerts, Arnošt Komárek, Emmanuel Lesaffre (2017).",
-             "Survival Analysis with Interval-Censored Data: A Practical Approach.",
-             "Boca Raton: Chapman & Hall/CRC. ISBN 978-1-4200-7747-6.",
-             "URL https://www.crcpress.com/Survival-Analysis-with-Interval-Censored-Data-A-Practical-Approach-with/Bogaerts-Komarek-Lesaffre/p/book/9781420077476.")
-         )
+         url     = "https://www.routledge.com/Survival-Analysis-with-Interval-Censored-Data-A-Practical-Approach-with/Bogaerts-Komarek-Lesaffre/p/book/9781420077476/",
+         header  = "To cite the package icensBKL in publications use:"
+)         

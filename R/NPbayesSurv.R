@@ -9,7 +9,7 @@ NPbayesSurv <- function(time, censor,
 #  choice = 3 --> Lognormal distribution
 
   choice <- match.arg(choice)
-  ##cat("choice: ", choice, "\n")
+  ##message(paste("choice: ", choice, "\n"))
 
   # Distance from template: large alpha --> parametric, small alpha ---> KM
   dist0 <- function(choice, u, parm)
@@ -87,10 +87,10 @@ NPbayesSurv <- function(time, censor,
     }
   }
 
-  cat("Prior guess: ", choice, ", ", ifelse(choice == "exp", paste("rate = ", parm[1], sep = ""),
-                                            ifelse(choice == "weibull", paste("shape = ", parm[1], ", scale = ", parm[2], sep = ""),
-                                                                        paste("meanlog = ", parm[1], ", sdlog = ", parm[2], sep = ""))),
-      "\n", sep = "")
+  message(paste("Prior guess: ", choice, ", ", ifelse(choice == "exp", paste("rate = ", parm[1], sep = ""),
+                                              ifelse(choice == "weibull", paste("shape = ", parm[1], ", scale = ", parm[2], sep = ""),
+                                                                          paste("meanlog = ", parm[1], ", sdlog = ", parm[2], sep = ""))),
+        "\n", sep = ""))
   
   timeunique <- unique(time)
   lambda <- as.vector(table(time))

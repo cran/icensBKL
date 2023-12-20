@@ -68,20 +68,22 @@ time <- graft$timeFU[graft$Hgraft == "AH"]
 censor <- graft$homo.failure[graft$Hgraft == "AH"]
 
   ## Initial guess: Weibull, c = 0.1 and 100
-par(mfrow = c(1, 2))
+oldpar <- par(mfrow = c(1, 2))
 NPbayesSurv(time, censor, "weibull", c = 100,
    xlab = "Follow-up time since the operation (years)", maintitle = "c = 100")
 NPbayesSurv(time, censor, "weibull", c = 100,
    xlab = "Follow-up time since the operation (years)", maintitle = "c = 100")
-par(mfrow = c(1, 1))
+par(oldpar)
 
   ## Initial guess: Exponential, c = 100
+oldpar <- par(mfrow = c(1, 1))
 NPbayesSurv(time, censor, "exp", c = 100,
    xlab = "Follow-up time since the operation (years)", maintitle = "Exp: c = 100")
 
   ## Initial guess: Log-normal, c = 100
 NPbayesSurv(time, censor, "lnorm", c = 100,
    xlab = "Follow-up time since the operation (years)", maintitle = "Log-Normal: c = 100")
+par(oldpar)
 }
 \keyword{nonparametric}
 \keyword{survival}

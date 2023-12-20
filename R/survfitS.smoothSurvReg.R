@@ -19,7 +19,7 @@ survfitS.smoothSurvReg<-
 {
     x <- formula
     if (x$fail >= 99) {
-        cat("No survivor curve, smoothSurvReg failed.\n")
+        warning("No survivor curve, smoothSurvReg failed.\n")
         return(invisible(x))
     }
     is.intercept <- x$estimated["(Intercept)"]

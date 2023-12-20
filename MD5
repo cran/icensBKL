@@ -1,11 +1,11 @@
-9ddabb0ec878907b258f7a31ff9eeda8 *DESCRIPTION
+d9120275f082e6a450e69336809f094c *DESCRIPTION
 c6fd701fe3b3c3d5b164621b459aef33 *NAMESPACE
-a8e2eefcf16810c81a5a6258bf1782c5 *R/NPICbayesSurv.R
-d1d68367108ab261e06f3d923e41e4c8 *R/NPbayesSurv.R
+31374090e7184fd5dbdd5007acc3087f *R/NPICbayesSurv.R
+568ecb9a6acfc976fdc7e1193dcc5752 *R/NPbayesSurv.R
 ea78110fee2ebedb09a66968385024a6 *R/clayton.copula.R
 f4d2897cbf6ddfeee66fffa1e4fa046a *R/contourProb.R
 31ad7f17f82f4ccdd87dd83aae42e9b6 *R/dllogis.R
-bb95e211ae135ff624d5414ad1b79df2 *R/fit.copula.R
+13b6f67cc605f8f6febba7aa7df7cbab *R/fit.copula.R
 f667c3400055a2c33a6ad181313ab361 *R/icbiplot.R
 b710194064e3e19669f6c00930008104 *R/icsurv2cdf.R
 2b5a97584f9b1cff746a5fcf7bcff028 *R/kSampleIcens.R
@@ -14,7 +14,7 @@ be1b6e8c892bd72a97e801b21396012c *R/normal.copula.R
 eab70216540c6463f7055bb2c82c0caa *R/pllogis.R
 4d34fb5da2f17fe82bf78bd9a2d152e7 *R/qllogis.R
 81e86d050954552a0a2d5e6137f6797d *R/rllogis.R
-790a538decd6cc88e7461fb1704b2b71 *R/survfitS.smoothSurvReg.R
+01fa3022db043abdc0ad26627f42dc56 *R/survfitS.smoothSurvReg.R
 d81a416b2a11c6254c46c9f180b63708 *data/aidsCT.rda
 979578c3d8af6f108a97c53b1e7c1c1f *data/aidsCohort.rda
 98dae08bd6f9d2ce63b130a0fef5dbc2 *data/breastCancer.rda
@@ -25,9 +25,9 @@ d81a416b2a11c6254c46c9f180b63708 *data/aidsCT.rda
 e499ecf130064266bffdc22db956a8e4 *data/tandmob.rda
 64424a48b4c3d0057c3c5bce6f70aa39 *data/tandmobAll.rda
 3e6316b1cdb4ff344fa9e8446aebb0d6 *data/yoghurt.rda
-97029b99b4850335bd50ba7e0f55f68d *inst/CITATION
+90317974104ff83bf3999c6b8bcfdfa8 *inst/CITATION
 0fed5bbe742cfb0fa2f9bf633afcb49c *man/NPICbayesSurv.Rd
-dd067c238d004869e43006a5ec03b437 *man/NPbayesSurv.Rd
+689194f96909e0e5a5b9e07e27b532dd *man/NPbayesSurv.Rd
 32b6328269080c9cdc5a114ff33e08da *man/aidsCT.Rd
 10fadabf2ac235ac49e9bbcc24f0418a *man/aidsCohort.Rd
 5dc95f646e7e1dfd5f0ad327656a6a40 *man/breastCancer.Rd
@@ -43,7 +43,7 @@ e0f9f6cc44761a5b5f09d95d7063b154 *man/kSampleIcens.Rd
 a8d9e78dc22e7da0ffda86c1d75f04a0 *man/mastitis.Rd
 e6dce543fdc63b1105cc58b5e7eced2c *man/mobile.Rd
 a58be6c3c2cbd57f1efbafe35185de36 *man/normal.copula.Rd
-381f5de31c83f423bc4576510f750328 *man/plackett.copula.Rd
+3d779cae47601a92ab9e71f74c4fc33f *man/plackett.copula.Rd
 a78525991921f31e7e12cf4fa0e597d8 *man/survfitS.smoothSurvReg.Rd
 a8b54984a9254a55e5d0302ee6771653 *man/tandmob.Rd
 2b4aab35a93c6caa304da063fc66b89e *man/tandmobAll.Rd

@@ -12,7 +12,7 @@ NPICbayesSurv <- function(low, upp,
   #  choice = 2 --> Weibull distribution
   #  choice = 3 --> Lognormal distribution
   choice <- match.arg(choice)
-  ##cat("choice: ", choice, "\n")
+  ##message(paste("choice: ", choice, "\n"))
   
   ### Determine initial parameter values (if not given by the user) for the template
   if (missing(parm)){      
@@ -59,12 +59,12 @@ NPICbayesSurv <- function(low, upp,
   ### A consistent estimate of the survival function is obtained with c = sqrt(N) 
   if (missing(cc)) cc <- sqrt(N)
   if (cc <= 0) stop("c must be positive")
-  ##cat("c: ", cc, "\n")
+  ##message(paste("c: ", cc, "\n"))
 
-  cat("Prior guess: ", choice, ", ", ifelse(choice == "exp", paste("rate = ", parm[1], sep = ""),
+  message(paste("Prior guess: ", choice, ", ", ifelse(choice == "exp", paste("rate = ", parm[1], sep = ""),
                                             ifelse(choice == "weibull", paste("shape = ", parm[1], ", scale = ", parm[2], sep = ""),
                                                                         paste("meanlog = ", parm[1], ", sdlog = ", parm[2], sep = ""))),
-      ", c = ", cc, "\n", sep = "")
+      ", c = ", cc, "\n", sep = ""))
   
   ### index contains the sequential numbers (in terms of the time grid)
   ### of the left and right endpoint of each IC outcome
